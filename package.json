@@ -5,7 +5,7 @@
   "author": "literat <tomas@litera.me>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "types": "tsc -p ./tsconfig.json",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
