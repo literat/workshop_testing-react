@@ -1,0 +1,12 @@
+{
+  "extends": "eslint-config-wesbos/tsconfig.json",
+  "include": [
+    "**/*"
+  ],
+  "compilerOptions": {
+    "target": "es2015",
+    "types": ["jest"],
+    "noEmit": true,
+    "jsx": "react"
+  }
+}
